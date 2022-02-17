@@ -1,0 +1,13 @@
+import React from 'react';
+
+const Preloader = () => (
+  <div className="preloader">
+    <svg className="logo-symbol" viewBox="0 0 41.25 41.25">
+      <circle cx="20.62" cy="20.62" r="20.62" />
+      <circle className="fill-white" cx="29.97" cy="14.93" r="6.58" />
+    </svg>
+    <img alt="Grupo WTasso" src="https://wtasso.com.br/wp-content/uploads/2021/04/logo-deitado-geral.png" />
+  </div>
+);
+
+export default Preloader;
